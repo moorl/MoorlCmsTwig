@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Demo Settings</title>
+        <title lang="de-DE">Demo Einstellungen</title>
+        <input-field type="text">
+            <name>string</name>
+            <label>Any text</label>
+            <defaultValue>Lorem ipsum dolor sit amet</defaultValue>
+        </input-field>
+        <input-field type="text">
+            <name>color</name>
+            <label>Any Color</label>
+            <defaultValue>#ff0000</defaultValue>
+        </input-field>
+        <input-field type="datetime">
+            <name>date</name>
+            <label>Any date</label>
+            <defaultValue>2020-04-09</defaultValue>
+        </input-field>
+    </card>
+
+</config>

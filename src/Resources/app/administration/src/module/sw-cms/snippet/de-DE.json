@@ -1,0 +1,16 @@
+{
+    "moorl-cms": {
+        "elements": {
+            "general": {
+                "config": {
+                    "label": {
+                        "contentHTML": "HTML Inhalt",
+                        "contentCSS": "CSS Inhalt",
+                        "contentJS": "JavaScript Inhalt",
+                        "useTwig": "Twig Kompilierung nutzen"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "moorl/moorl-cms-twig",
+    "description": "CMS Element - HTML/Twig",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Moorleiche Web Solutions"
+        }
+    ],
+    "require": {
+        "shopware/core": "*"
+    },
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "MoorlCmsTwig\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "MoorlCmsTwig\\MoorlCmsTwig",
+        "copyright": "(c) by Moorleiche Web Solutions",
+        "label": {
+            "de-DE": "CMS Element - HTML/Twig",
+            "en-GB": "CMS Element - HTML/Twig"
+        }
+    }
+}
