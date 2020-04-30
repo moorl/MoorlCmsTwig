@@ -1,7 +1,10 @@
 .sw-cms-el-moorl-twig {
     width: 100%;
     min-height: 200px;
+    max-width: 1080px;
     background-color: black;
+    overflow: auto;
+    max-height: 400px;
     pre {
         color: greenyellow;
         padding: 10px;
