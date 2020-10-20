@@ -23,6 +23,18 @@
         "label": {
             "de-DE": "CMS Element - HTML/Twig",
             "en-GB": "CMS Element - HTML/Twig"
+        },
+        "description": {
+            "de-DE": "CMS Element - HTML/Twig",
+            "en-GB": "CMS Element - HTML/Twig"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://docs.moori.net/",
+            "en-GB": "https://docs.moori.net/"
+        },
+        "supportLink": {
+            "de-DE": "https://docs.moori.net/",
+            "en-GB": "https://docs.moori.net/"
         }
     }
 }
