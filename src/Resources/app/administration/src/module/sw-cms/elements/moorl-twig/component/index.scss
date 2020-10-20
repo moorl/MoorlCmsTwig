@@ -3,10 +3,11 @@
     min-height: 200px;
     max-width: 1080px;
     background-color: black;
-    overflow: auto;
     max-height: 400px;
+    overflow: scroll;
     pre {
         color: greenyellow;
         padding: 10px;
+        width: 0;
     }
 }
