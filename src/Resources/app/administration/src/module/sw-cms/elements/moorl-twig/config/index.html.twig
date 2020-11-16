@@ -2,6 +2,7 @@
 
     <sw-code-editor
         :label="$tc('moorl-cms.elements.general.config.label.contentHTML')"
+        :softWraps="false"
         v-model="element.config.contentHTML.value">
     </sw-code-editor>
 
@@ -13,11 +14,13 @@
 
     <sw-code-editor
         :label="$tc('moorl-cms.elements.general.config.label.contentCSS')"
+        :softWraps="false"
         v-model="element.config.contentCSS.value">
     </sw-code-editor>
 
     <sw-code-editor
         :label="$tc('moorl-cms.elements.general.config.label.contentJS')"
+        :softWraps="false"
         v-model="element.config.contentJS.value">
     </sw-code-editor>
 
