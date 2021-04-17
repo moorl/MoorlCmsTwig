@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
-
     <card>
         <title>Demo Settings</title>
         <title lang="de-DE">Demo Einstellungen</title>
@@ -21,5 +20,4 @@
             <defaultValue>2020-04-09</defaultValue>
         </input-field>
     </card>
-
 </config>

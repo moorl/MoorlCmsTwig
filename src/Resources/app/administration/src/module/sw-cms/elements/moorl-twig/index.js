@@ -13,10 +13,10 @@ Application.getContainer('service').cmsService.registerCmsElement({
         contentHTML: {
             source: 'static',
             value: `<p class="moorl-cms-twig-title">
-    {{ shopware.config.MoorlCmsTwig.config.string }}
+    {{ config('MoorlCmsTwig.config.string') }}
 </p>
 <p class="moorl-cms-twig-logo">
-    <img src="{{ shopware.theme['sw-logo-desktop'] }}" alt="Logo">    
+    <img src="{{ theme_config('sw-logo-desktop') }}" alt="Logo">    
 </p>
 <p>
     {{ activeRoute }}
@@ -26,16 +26,16 @@ Application.getContainer('service').cmsService.registerCmsElement({
             source: 'static',
             value: `.moorl-cms-twig-title {
     font-weight: 600;
-    color: {{ shopware.config.MoorlCmsTwig.config.color }};           
+    color: {{ config('MoorlCmsTwig.config.color') }};           
 }
 .moorl-cms-twig-logo {
     padding: 15px;
-    background-color: {{ shopware.theme['sw-color-brand-primary'] }};          
+    background-color: {{ theme_config('sw-color-brand-primary') }};          
 }`,
         },
         contentJS: {
             source: 'static',
-            value: `console.log("{{ shopware.config.MoorlCmsTwig.config.string }}");`,
+            value: `console.log("{{ config('MoorlCmsTwig.config.string') }}");`,
         },
         useTwig: {
             source: 'static',
