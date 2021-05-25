@@ -4,6 +4,7 @@
             "general": {
                 "config": {
                     "label": {
+                        "twig": "HTML/Twig",
                         "contentHTML": "HTML Inhalt",
                         "contentCSS": "CSS Inhalt",
                         "contentJS": "JavaScript Inhalt",
