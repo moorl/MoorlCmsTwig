@@ -9,7 +9,7 @@ Application.getContainer('service').cmsService.registerCmsElement({
     label: 'HTML/Twig',
     component: 'sw-cms-el-moorl-twig',
     configComponent: 'sw-cms-el-config-moorl-twig',
-    previewComponent: true,
+    previewComponent: 'sw-cms-el-preview-moorl-twig',
     defaultConfig: {
         contentHTML: {
             source: 'static',
