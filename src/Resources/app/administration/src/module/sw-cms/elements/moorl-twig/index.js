@@ -1,14 +1,15 @@
 const Application = Shopware.Application;
 import './component';
 import './config';
-import './preview';
 
 Application.getContainer('service').cmsService.registerCmsElement({
+    plugin: 'MoorlCmsTwig',
+    icon: 'default-text-code',
     name: 'moorl-twig',
     label: 'HTML/Twig',
     component: 'sw-cms-el-moorl-twig',
     configComponent: 'sw-cms-el-config-moorl-twig',
-    previewComponent: 'sw-cms-el-preview-moorl-twig',
+    previewComponent: true,
     defaultConfig: {
         contentHTML: {
             source: 'static',
