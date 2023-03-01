@@ -4,7 +4,7 @@ import './config';
 
 Application.getContainer('service').cmsService.registerCmsElement({
     plugin: 'MoorlCmsTwig',
-    icon: 'default-text-code',
+    icon: 'regular-code',
     name: 'moorl-twig',
     label: 'HTML/Twig',
     component: 'sw-cms-el-moorl-twig',
