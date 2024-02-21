@@ -27,7 +27,7 @@ Component.register('sw-cms-el-moorl-twig', {
             }
         },
         frontCss() {
-            if (this.element.config.typeFront.value == 'image') {
+            if (this.element.config.typeFront.value === 'image') {
                 return {
                     'background-image': 'url(' + this.mediaUrl + ')',
                 }

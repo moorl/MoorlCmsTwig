@@ -25,18 +25,11 @@ Application.getContainer('service').cmsService.registerCmsElement({
         },
         contentCSS: {
             source: 'static',
-            value: `.moorl-cms-twig-title {
-    font-weight: 600;
-    color: {{ config('MoorlCmsTwig.config.color') }};           
-}
-.moorl-cms-twig-logo {
-    padding: 15px;
-    background-color: {{ theme_config('sw-color-brand-primary') }};          
-}`,
+            value: null,
         },
         contentJS: {
             source: 'static',
-            value: `console.log("{{ config('MoorlCmsTwig.config.string') }}");`,
+            value: null,
         },
         useTwig: {
             source: 'static',
